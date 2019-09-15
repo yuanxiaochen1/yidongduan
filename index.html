@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>移动端个人简历</title>
+<link rel="stylesheet" href="css/index.css">
+    <script>
+        ~ function () {
+            function computed() {
+                let HTML = document.documentElement,
+                    deviceW = HTML.clientWidth,
+                    designW = 750,
+                    ratio = deviceW / designW * 100;
+                if (deviceW >= designW) ratio = 100;
+                HTML.style.fontSize = ratio + 'px';
+            }
+            computed();
+            window.addEventListener('orientationchange', computed);
+            window.addEventListener('resize', computed);
+        }();
+    </script>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <!-- 音乐区域 -->
+        <section class="musicBox">
+            <!-- AUDIO支持的格式：mp3/ogg/wav/m3u8直播流 -->
+            <audio class="musicAudio" src="audio/music.mp3" loop preload="none">
+            </audio>
+            <a href="javascript:;" class="musicIcon move"></a>
+        </section>
+        <!-- 滑屏区域 -->
+        <section class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide page1">
+                    <img src="images/bg1.gif" alt="">
+                    <div class="container">
+                        <div class="logo"></div>
+                        <div class="text">我有我的个性便签<br>和别人不一样</div>
+                        <div class="shenti"></div>
+                        <div class="tui"></div>
+                        <div class="zuoshou"></div>
+                        <div class="youshou"></div>
+                        <div class="yan"></div>
+                        <div class="bizi"></div>
+                        <div class="bozi"></div>
+                        <div class="zuiba"></div>
+                        <div class="biao"></div>
+                        <div class="name">我叫袁晓晨</div>
+                    </div>
+                </div>
+                <div class="swiper-slide page2">
+                    <img src="images/bg1.gif" alt="">
+                    <div class="container">
+                        <div class="top"></div>
+                        <div class="box">
+                            <div class="list">
+                                <ul class="info">
+                                    <li><em></em>袁晓晨</li>
+                                    <li><em></em>15533275327</li>
+                                    <li><em></em>李荣浩丶</li>
+                                    <li><em></em>492900476@qq.com</li>
+                                    <li><em></em>中国</li>
+                                    <li><em></em>本科</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide page3">
+                    <img src="images/bg1.gif" alt="">
+                    <div class="container">
+                        <div class="ren"></div>
+                        <div class="yun">
+                            <div>专业技能</div>
+                        </div>
+                        <ul class="list">
+                            <li><img src="images/3gou.png" alt=""></li>
+                            <li>
+                                <div class="left">软件</div>
+                                <div class="right">PhotoShop</div>
+                            </li>
+                            <li><img src="images/3gou.png" alt=""></li>
+                            <li>
+                                <div class="left">技能</div>
+                                <div class="right">JS/CSS/HTML</div>
+                            </li>
+                            <li><img src="images/3gou.png" alt=""></li>
+                            <li>
+                                <div class="left">精通</div>
+                                <div class="right">JS/CSS</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="swiper-slide page4">
+                    <img src="images/bg1.gif" alt="">
+                    <div class="container">
+                        <ul class="top">
+                            <li>工</li>
+                            <li>作</li>
+                            <li>经</li>
+                            <li>历</li>
+                        </ul>
+                        <ul class="list">
+                            <li><em></em>2018-2019</li>
+                            <li>xxxxx公司</li>
+                            <li>前端设计师</li>
+                            <li>本人是个大帅哥、本人是个大帅哥、本人是个大帅哥、本人是个大帅哥</li>
+                            <li><em></em>2019-xxxx</li>
+                            <li>xxxxx公司</li>
+                            <li>本人是个大帅哥、本人是个大帅哥、本人是个大帅哥、本人是个大帅哥、</li>
+                        </ul>
+                        <div class="feiji"></div>
+                        <div class="deng"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide page5">
+                    <img src="images/bg1.gif" alt="">
+                    <div class="container">
+                        <ul class="top">
+                            <li>作</li>
+                            <li>品</li>
+                            <li>展</li>
+                            <li>示</li>
+                        </ul>
+                        <div class="box">
+                            <div class="imgBtn1">
+                                <img src="images/6zuo.webp" alt="">
+                            </div>
+                            <div class="imgBtn2">
+                                <img src="images/6you.webp" alt="">
+                            </div>
+                            <div class="imgBox">
+                                <div class="item">
+                                    <!-- 加图片 -->
+                                    <img src="images/touxiangda.webp" alt="">
+                                    <img src="images/lunbo2.jpg" alt="">
+                                    <img src="images/body.jpg" alt="">
+                                </div>
+                            </div>
+                            <p>点击箭头切换图片</p>
+                        </div>
+                        <div class="feiji"></div>
+                       </div>
+                </div>
+                <div class="swiper-slide page6">
+                    <img src="images/bg1.gif" alt=""> 
+                <div class="container">
+                <div class="logo"></div>
+                <div class="text1">就是你了</div>
+                <div class="erweima">
+                    <div class="top"><img src="images/ma.png" alt=""></div>
+                    <div class="botton"></div>
+                </div>
+                <div class="text">
+                    <ul class="info">
+                        <li><em></em>袁晓晨</li>
+                        <li><em></em>15533275327</li>
+                        <li><em></em>492900476@qq.com</li>
+                    </ul>
+                </div>
+                <div class="top">联系我吧</div>
+                <div class="top2">CONTACT&nbsp;ME&nbsp;&nbsp;</div>
+                <div class="top1"></div>
+                </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="js/zepto.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
